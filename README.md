@@ -14,4 +14,8 @@
 
 ## 배포
 
+운영 주소: https://egg-quest-taupe.vercel.app
+
+GitHub `main` 브랜치에 푸시하면 연결된 Vercel 프로젝트 `egg-quest`가 자동으로 운영 배포합니다. Vercel 설정은 `vercel.json`에 있으며 출력 디렉터리는 `dist`입니다.
+
 `dist/`를 정적 호스팅에 배포합니다. GitHub Pages는 저장소 Settings → Pages → GitHub Actions에서 활성화하면 포함된 워크플로로 배포할 수 있습니다. Sites 배포 설정은 `.openai/hosting.json`에 있습니다.
